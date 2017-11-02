@@ -93,8 +93,8 @@ var m = {
 				if (!p.countfloat) {
 
 					p.operations.innerHTML += digit;
-
 					p.countfloat = true;
+					p.result = false;
 
 				}
 
